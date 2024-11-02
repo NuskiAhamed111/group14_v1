@@ -1,0 +1,187 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+main {
+    margin-top: 20px;
+    flex: 1; /* This will ensure the main content takes up the remaining space */
+}
+.container {
+    /* max-width: 600px;  */
+    /* display: none; */
+    background-color: white;
+    /* padding: 5px;  */
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 5px;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+form.active {
+    display: block;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Button Styles */
+button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Success Message */
+.success-msg {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    color: #666;
+}
+select, textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+select {
+    width: 100%; /* Ensure select dropdowns are full-width */
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.download-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Inspection Reports Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50; /* Header background color */
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Row background color */
+}
+
+table tr:hover {
+    background-color: #f1f1f1; /* Hover effect */
+}
+
+/* Table Header Styling */
+thead th {
+    text-align: center;
+    font-size: 1em;
+}
+
+
+
+
+
+/* Success and error message styling */
+.success-msg {
+    color: #28a745;
+    margin-top: 10px;
+}
+
+.error-msg {
+    color: #dc3545;
+    margin-top: 10px;
+}
+
+#uploadDiaryForm,#overallProcessReportForm,#viewProgressReport,#viewOverallProcessReport,#viewInspectionReports{
+    margin: 10px;
+}
+

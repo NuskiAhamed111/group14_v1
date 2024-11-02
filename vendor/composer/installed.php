@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'mathuja/industrial_diary_system',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'fpdf/fpdf' => array(
+            'pretty_version' => '1.8.1',
+            'version' => '1.8.1.0',
+            'reference' => '2ce0beb0002f074d2ef3020b049c50fff0be1f9a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../fpdf/fpdf',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'mathuja/industrial_diary_system' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tecnickcom/tcpdf' => array(
+            'pretty_version' => '6.7.6',
+            'version' => '6.7.6.0',
+            'reference' => '4cf1ab192e87e6916d20f93077b2bdfa96a2f848',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tecnickcom/tcpdf',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

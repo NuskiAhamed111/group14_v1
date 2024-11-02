@@ -1,0 +1,21 @@
+{
+    "name": "mathuja/industrial_diary_system",
+    "description": "A web-based industrial diary system for students to submit weekly reports and receive mentor feedback.",
+    "type": "project",
+    "require": {
+    "fpdf/fpdf": "1.8.1",
+        "tecnickcom/tcpdf": "^6.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mathuja\\IndustrialDiarySystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mathuja"
+        }
+    ],
+    "minimum-stability": "stable"
+}
